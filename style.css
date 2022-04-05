@@ -1,0 +1,121 @@
+/*-------home--------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#home{
+    background:url(./img/pexels-ryutaro-tsukata-5220092.jpg)  fixed no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+#home-div{
+    padding-top: 500px;
+    padding-left: 70px;
+}
+
+#home-div p{
+    color: white;
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+#home-div a{
+    text-decoration: none;
+    color: yellow;
+}
+/*-----food--------*/
+#special-header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #333;
+    font-weight: 700;
+}
+#special-header2{
+    margin-top: 30px;
+    color: #333;
+    font-weight: 700;
+}
+
+.show {
+    display: block;
+  }
+  
+.remove {
+    display: none;
+  }
+
+  .img-filter img{
+      padding-bottom: 30px;
+      
+  }
+
+  .menu-list{
+      text-align: center;
+      padding-bottom: 30px;
+      padding-top: 20px;
+  }
+
+
+    .carousel-inner img {
+        margin: auto;
+    }
+    .inner-div {
+        margin-top: 200px;
+    }
+
+/*-----review------*/
+
+#review{
+    background: url(./img/back.jpg) fixed no-repeat center center/cover;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+.review-flex{
+    padding-top: 100px;
+}
+
+.review-flex i{
+    color:white;
+    font-size: 36px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.review-flex p{
+    color: white;
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+
+.counter{
+    color: rgb(228, 163, 24);
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 60px;
+}
+/*-------reservation---------*/
+
+#left{
+    background: url(./img/kinezi.png)  no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+form{
+    margin-top: 60px;
+}
+
+
+
