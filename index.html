@@ -158,6 +158,11 @@
   
     <div class="container img-filter">
       <div class="row">
+        <div class="filtered-div col-4" id="lunch" data-lunch="lunch"><img src="./img/Covered Rice.jpg"class="img-fluid " ></div>
+        <div class="filtered-div col-4" id="lunch" data-lunch="lunch"><img src="./img/Hot Spicy Soup.jpg" class="img-fluid "></div>
+        <div class="filtered-div col-4" id="lunch" data-lunch="lunch"><img src="./img/Chinese Burgers.jpg" class="img-fluid "></div>
+        </div>
+      <div class="row">
         
         <div class="filtered-div col-4 " id="breakfast" data-breakfast="breakfast"><img src="./img/Steamed Buns.jpg" class="img-fluid"  ></div>
 
@@ -171,12 +176,13 @@
         <div class="filtered-div col-4" id="breakfast" data-breakfast="breakfast"><img src="./img/chinese-chicken-and-rice-porridge.jpg" class="img-fluid " ></div>
         <div class="filtered-div col-4" id="breakfast" data-breakfast="breakfast"><img src="./img/chicken jook congee.jpg" class="img-fluid " ></div>
       </div>
-
       <div class="row">
-      <div class="filtered-div col-4" id="lunch" data-lunch="lunch"><img src="./img/Covered Rice.jpg"class="img-fluid " ></div>
-      <div class="filtered-div col-4" id="lunch" data-lunch="lunch"><img src="./img/Hot Spicy Soup.jpg" class="img-fluid "></div>
-      <div class="filtered-div col-4" id="lunch" data-lunch="lunch"><img src="./img/Chinese Burgers.jpg" class="img-fluid "></div>
-      </div>
+        <div class="filtered-div col-4" id="dinner" data-dinner="dinner"><img src="./img/Stewed fish.jpg" class="img-fluid " ></div>
+        <div class="filtered-div col-4" id="dinner" data-dinner="dinner"><img src="./img/Fried meat with green pepper.jpg"class="img-fluid " ></div>
+        <div class="filtered-div col-4" id="dinner" data-dinner="dinner"><img src="./img/stuffed biter groud.jpg" class="img-fluid " ></div>
+        </div>
+
+      
       <div class="row">
       <div class="filtered-div col-4" id="lunch" data-lunch="lunch"><img src="./img/Steamed Buns.jpg" class="img-fluid "></div>
       <div class="filtered-div col-4" id="lunch" data-lunch="lunch"><img src="./img/Hot Pot.jpg" class="img-fluid " ></div>
@@ -187,11 +193,7 @@
       <div class="filtered-div col-4" id="dinner" data-dinner="dinner"><img src="./img/Stir-fried broccoli.jpg " class="img-fluid " ></div>
       <div class="filtered-div col-4" id="dinner" data-dinner="dinner"><img src="./img/Fried shredded potato.jpg" class="img-fluid " ></div>
       </div>
-      <div class="row">
-      <div class="filtered-div col-4" id="dinner" data-dinner="dinner"><img src="./img/Stewed fish.jpg" class="img-fluid " ></div>
-      <div class="filtered-div col-4" id="dinner" data-dinner="dinner"><img src="./img/Fried meat with green pepper.jpg"class="img-fluid " ></div>
-      <div class="filtered-div col-4" id="dinner" data-dinner="dinner"><img src="./img/stuffed biter groud.jpg" class="img-fluid " ></div>
-      </div>
+      
       <div class="row">
       <div class="filtered-div col-4" id="dessert" data-dessert="dessert"><img src="./img/Red Bean Bun.jpg" class="img-fluid " ></div>
       <div class="filtered-div col-4" id="dessert" data-dessert="dessert"><img src="./img/Egg Tarts.jpg" class="img-fluid " ></div>
@@ -261,28 +263,33 @@
 
 <section id="review"  class="counters">
   <div class="container">
-    <div class="row col-lg-12 col-md-12 col-md-3  d-flex flex-row justify-content-evenly flex-wrap ">
-      <div class="review-flex d-flex flex-row justify-content-around ">
-        <div class="rv-1  d-flex flex-column flex-wrap">
+    <div class="row  d-flex flex-row justify-content-evenly flex-wrap " id="review-content">
+      <div class="review-flex d-flex flex-row justify-content-around col-lg-12 col-md-12 col-sm-12 ">
+
+        <div class="rv-1  d-flex flex-column flex-wrap review-happy">
         <i class="fa-solid fa-face-smile"></i>
         <div class="counter" data-target="4700">0</div>
         <p>Happy Costumers</p> 
         </div>
-        <div class="rv-2  d-flex flex-column flex-wrap">
+
+        <div class="rv-2  d-flex flex-column flex-wrap review-dishes">
         <i class="fa-solid fa-plate-wheat"></i>
         <div class="counter" data-target="800">0</div>
         <p>Dishes Served</p>
         </div>
-        <div class="rv-3  d-flex flex-column flex-wrap">
+
+        <div class="rv-3  d-flex flex-column flex-wrap review-total">
         <i class="fa-solid fa-wine-bottle"></i>
         <div class="counter" data-target="500">0</div>
         <p>Total Beverages</p>
         </div>
-        <div class="rv-4 d-flex flex-column flex-wrap">
+
+        <div class="rv-4 d-flex flex-column flex-wrap review-orders">
         <i class="fa-solid fa-truck"></i>
         <div class="counter" data-target="1300">0</div>
         <p>Orders Delivered</p>
         </div>
+
       </div>
     </div>
 </div>
